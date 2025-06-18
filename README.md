@@ -51,6 +51,6 @@
 
 ## ⚙️ Hướng dẫn cài đặt
 
-1. **Tải mã nguồn dự án:** 
+1. **Tải mã nguồn dự án:**
    ```bash
- git clone https://github.com/buivantuong2k4/Web_BanHang.git   
+   git clone https://github.com/buivantuong2k4/Web_BanHang.git
