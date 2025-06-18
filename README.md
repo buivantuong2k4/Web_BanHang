@@ -53,5 +53,5 @@
 
 1. **Tải mã nguồn dự án:** 
    ```bash
-   git clone    git clone https://github.com/your-username/mi-cay-website.git
+   git clone [https://github.com/your-username/mi-cay-website.git](https://github.com/buivantuong2k4/Web_BanHang.git
    
