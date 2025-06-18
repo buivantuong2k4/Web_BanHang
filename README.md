@@ -1,47 +1,56 @@
-🍜 Website Mì Cay
-Dự án website giới thiệu và quản lý quán mì cay được xây dựng bằng PHP trên XAMPP, phát triển bằng Visual Studio Code.
+<h1 align="center">🍜 Website Mì Cay</h1>
 
-📝 Giới thiệu
-Dự án này là một website đơn giản phục vụ việc giới thiệu quán mì cay, hiển thị thực đơn, quản lý đặt món và có thể mở rộng để tích hợp tính năng quản lý người dùng hoặc đặt bàn trực tuyến. Giao diện được thiết kế thân thiện, dễ sử dụng, hoạt động trên nền tảng PHP.
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=apache&logoColor=white"/>
+  <img src="https://img.shields.io/badge/phpMyAdmin-F89500?style=flat&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white"/>
+</p>
 
-🔧 Công nghệ sử dụng
-PHP – Xử lý logic và giao tiếp với cơ sở dữ liệu
+<p align="center"><i>Website giới thiệu và đặt món online cho quán mì cay, sử dụng PHP thuần, MySQL và chạy trên XAMPP.</i></p>
 
-XAMPP – Môi trường máy chủ local (Apache + MySQL)
+---
 
-Visual Studio Code – Công cụ phát triển mã nguồn
+## 📝 Giới thiệu
 
-MySQL – Quản lý cơ sở dữ liệu món ăn và người dùng
+**Website Mì Cay** là một dự án web đơn giản phục vụ giới thiệu quán ăn, hiển thị thực đơn, và hỗ trợ người dùng đặt món online. Dự án sử dụng PHP để xử lý phía backend, lưu trữ dữ liệu bằng MySQL và quản lý thông qua phpMyAdmin.
 
-HTML/CSS/JS – Giao diện người dùng
+---
 
-🚀 Tính năng chính
-Trang chủ: Hiển thị giới thiệu về quán và các chương trình khuyến mãi
+## 🔧 Công nghệ sử dụng
 
-Thực đơn món ăn: Danh sách các món mì cay kèm hình ảnh và giá
+- **PHP** – Xử lý logic và giao tiếp với cơ sở dữ liệu  
+- **MySQL (phpMyAdmin)** – Lưu trữ & quản lý dữ liệu món ăn, đơn hàng  
+- **XAMPP** – Môi trường local server tích hợp Apache, MySQL, phpMyAdmin  
+- **HTML / CSS / JavaScript** – Giao diện người dùng thân thiện  
+- **Visual Studio Code** – Trình soạn thảo mã nguồn
 
-Đặt món online: Cho phép người dùng chọn món và gửi đơn hàng
+---
 
-Quản lý đơn hàng: Xem danh sách đơn đặt hàng (qua trang admin)
+## 🚀 Tính năng chính
 
-Quản lý món ăn: Thêm/sửa/xóa món ăn từ cơ sở dữ liệu
+- ✅ **Trang chủ:** Hiển thị thông tin quán, ảnh bìa và khuyến mãi  
+- 🍜 **Thực đơn món ăn:** Danh sách các món mì cay với giá và hình ảnh  
+- 🛒 **Đặt món online:** Người dùng chọn món và gửi đơn đặt hàng  
+- 🗂️ **Quản lý món ăn (Admin):** Thêm/sửa/xóa món ăn từ MySQL  
+- 📦 **Xem đơn hàng (Admin):** Duyệt và xử lý đơn hàng của khách  
+- 📱 **Responsive:** Giao diện hiển thị tốt trên máy tính và điện thoại
 
-Responsive: Website hiển thị tốt trên cả máy tính và điện thoại
+---
 
-📂 Điểm nổi bật của dự án
-Cấu trúc thư mục rõ ràng, tách biệt phần giao diện và xử lý logic
+## 📸 Ảnh minh họa
 
-Sử dụng PHP thuần không framework, phù hợp cho người mới học web backend
+<!-- Thêm ảnh screenshot nếu có -->
+<p align="center">
+  <img src="assets/homepage.png" width="300"/>
+  <img src="assets/menu.png" width="300"/>
+</p>
 
-Có thể dễ dàng mở rộng thêm tính năng như đăng nhập admin, phân quyền, thống kê doanh thu
+---
 
-Phù hợp triển khai demo cho dự án môn học, đồ án cuối kỳ
+## ⚙️ Hướng dẫn cài đặt
 
-⚙️ Yêu cầu hệ thống
-Cài đặt XAMPP (hoặc phần mềm tương đương)
-
-Trình soạn thảo mã nguồn: Visual Studio Code
-
-Trình duyệt: Chrome, Firefox, Edge,...
-
-Cơ sở dữ liệu MySQL (tạo bằng phpMyAdmin)
+1. **Tải mã nguồn dự án:**
+   ```bash
+   git clone https://github.com/your-username/mi-cay-website.git
